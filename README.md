@@ -1,4 +1,6 @@
-# React + TypeScript + Vite
+# MBBSWaala - One Page Application
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/dhruvkumarkewat/mbbswaala_one_page)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
