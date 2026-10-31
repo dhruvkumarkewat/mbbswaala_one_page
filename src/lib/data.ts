@@ -2,7 +2,10 @@ export const PHONE = '+91 78801 19983';
 export const PHONE_TEL = 'tel:+917880119983';
 export const WA_LINK = 'https://wa.me/917880119983';
 export const EMAIL = 'info@mbbswala.in';
-export const SUBSCRIPTION_URL = 'https://mbbswaala.io/dashboard/subscription';
+export const SUBSCRIPTION_URL =
+  (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'))
+    ? 'http://localhost:5173/dashboard/subscription'
+    : 'https://mbbswaala.io/dashboard/subscription';
 export const APP_BASE = 'https://mbbswaala.io';
 export const SUPABASE_URL = 'https://hbzzamezfhzsdupdhcin.supabase.co';
 export const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_5D517PLNdF92v3Q1s6Dp_w_WaZtsrPo';
